@@ -1,0 +1,36 @@
+.btn-submit {
+  display: block;
+  width: 280px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: @font-open-sans;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  background-color: @btn-submin-color;
+  color: @secondary-text-color;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #1c9b5e;
+  }
+
+  &:focus {
+    background-color: #1c9b5e;
+    outline: none;
+  }
+
+  &:active {
+    background-color: #1c9b5e;
+    color: rgba(255, 255, 255, 0.3);
+    outline: none;
+  }
+
+  &:disabled {
+    background-color: #e5e5e5;
+  }
+}

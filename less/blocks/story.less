@@ -1,0 +1,43 @@
+.story {
+  margin-top: 40px;
+}
+
+.story__text {
+  margin-bottom: 36px;
+  text-align: center;
+
+  &--mobile-hidden {
+    display: none;
+  }
+}
+
+/*--TABLET--*/
+
+@media (min-width: @tablet-width) {
+  .story {
+    margin-top: 90px;
+  }
+
+  .story__text {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 68px;
+    font-family: @font-open-sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    &--mobile-hidden {
+      display: inline;
+    }
+  }
+}
+
+/*--DESKTOP--*/
+
+@media (min-width: @desktop-width) {
+  .story__text {
+    width: 760px;
+    margin-bottom: 60px;
+  }
+}
